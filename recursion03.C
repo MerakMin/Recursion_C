@@ -4,7 +4,7 @@ void f(int cur, int max){
     if(cur > max)
         return;
     if(cur % 2 == 1)
-        printf("%d", cur);
+        printf("%d ", cur);
     f(++cur, max);
 }
 int main(){

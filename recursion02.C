@@ -11,7 +11,7 @@ int p(int n)
 int main()
 {
     scanf("%d", &m);
-    p(m)
+    p(m);
 
     return 0;
 }
